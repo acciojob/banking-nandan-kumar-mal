@@ -39,7 +39,7 @@ public class BankAccount {
 
     public void deposit(double amount) {
         //add amount to balance
-        this.balance=this.balance+amount;
+        this.balance = getBalance() + amount;
 
 
     }

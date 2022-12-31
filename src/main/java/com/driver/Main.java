@@ -235,6 +235,11 @@ public class Main {
 //        System.out.println(diff2);
 //        System.out.println(Math.abs(diff2) <= 100.0);
 
+//        SavingsAccount savingsAccount = new SavingsAccount("acc1", 5500.0, 1.0, 20.0);
+//        System.out.println(savingsAccount.getCompoundInterest(12, 2));
+//        Double diff = savingsAccount.getCompoundInterest(12, 2) - 8178.033;
+//        System.out.println(diff);
+//        System.out.println(Math.abs(diff) <= 100.0);
     }
 
 

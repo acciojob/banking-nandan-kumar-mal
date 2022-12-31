@@ -73,6 +73,64 @@ public class Main {
 //
 //        System.out.println(bankAccount.getMinBalance());
 
+        CurrentAccount currentAccount;
+//        try {
+//            currentAccount = new CurrentAccount("curr", 5000.0, "ABCDE");
+//
+//            System.out.println(currentAccount.getName().equals("curr"));
+//
+//            System.out.println(currentAccount.getBalance());
+//
+//            System.out.println(currentAccount.getMinBalance());
+//
+//            System.out.println(currentAccount.getTradeLicenseId().equals("ABCDE"));
+//        } catch (Exception var5) {
+//            System.out.println(var5.getMessage().equals("Insufficient Balan"));
+//        }
+//
+//        try {
+//            currentAccount = new CurrentAccount("curr", 7000.0, "ABCDE");
+//
+//            System.out.println(currentAccount.getName().equals("curr"));
+//
+//            System.out.println(currentAccount.getBalance());
+//
+//            System.out.println(currentAccount.getMinBalance());
+//
+//            System.out.println(currentAccount.getTradeLicenseId().equals("ABCDE"));
+//        } catch (Exception var4) {
+//            System.out.println(var4.getMessage().equals("Insufficient Balan"));
+//        }
+
+//        try {
+//            currentAccount = new CurrentAccount("curr", 0.0, "ABCDE");
+//
+//            System.out.println(currentAccount.getName().equals("curr"));
+//
+//            System.out.println(currentAccount.getBalance());
+//
+//            System.out.println(currentAccount.getMinBalance());
+//
+//            System.out.println(currentAccount.getTradeLicenseId().equals("ABCDE"));
+//        } catch (Exception var3) {
+//            System.out.println(var3.getMessage().equals("Insufficient Balance"));
+//        }
+//
+//        try {
+//            currentAccount = new CurrentAccount("curr", 4999.0, "ABCDE");
+//
+//            System.out.println(currentAccount.getName().equals("curr"));
+//
+//            System.out.println(currentAccount.getBalance());
+//
+//            System.out.println(currentAccount.getMinBalance());
+//
+//            System.out.println(currentAccount.getTradeLicenseId().equals("ABCDE"));
+//        } catch (Exception var2) {
+//            System.out.println(var2.getMessage().equals("Insufficient Balance"));
+//        }
+
+
     }
 
 

@@ -221,19 +221,19 @@ public class Main {
 //        } catch (Exception var3) {
 //            System.out.println(var3.getMessage().equals("Maximum Withdraw Limit Exceeded"));
 //        }
-
-        SavingsAccount savingsAccount = new SavingsAccount("acc1", 1000.0, 1.0, 10.0);
-        System.out.println(savingsAccount.getSimpleInterest(5));
-        Double diff = savingsAccount.getSimpleInterest(5) - 1500.0;
-        System.out.println(diff);
-
-        System.out.println(Math.abs(diff) <= 1.0);
-
-        savingsAccount = new SavingsAccount("acc1", 1000.0, 1.0, 5.0);
-        System.out.println(savingsAccount.getCompoundInterest(2, 10));
-        Double diff2 = savingsAccount.getCompoundInterest(2, 10) - 1638.52;
-        System.out.println(diff2);
-        System.out.println(Math.abs(diff2) <= 100.0);
+//
+//        SavingsAccount savingsAccount = new SavingsAccount("acc1", 1000.0, 1.0, 10.0);
+//        System.out.println(savingsAccount.getSimpleInterest(5));
+//        Double diff = savingsAccount.getSimpleInterest(5) - 1500.0;
+//        System.out.println(diff);
+//
+//        System.out.println(Math.abs(diff) <= 1.0);
+//
+//        savingsAccount = new SavingsAccount("acc1", 1000.0, 1.0, 5.0);
+//        System.out.println(savingsAccount.getCompoundInterest(2, 10));
+//        Double diff2 = savingsAccount.getCompoundInterest(2, 10) - 1638.52;
+//        System.out.println(diff2);
+//        System.out.println(Math.abs(diff2) <= 100.0);
 
     }
 
